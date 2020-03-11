@@ -1,0 +1,20 @@
+psh 12 ; Lexical Error
+push int8(42)
+push int8(75)
+push int8(75)
+int8(2) assert ; Syntactic Err
+push float(10.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001);
+mul
+dump
+push int8(-75)
+push int8(75)
+pop
+pop
+pop
+pop
+pop
+pop
+pop
+mul
+dump
+exit

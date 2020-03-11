@@ -1,0 +1,20 @@
+push int8(63)
+push int8(116)
+push int8(105)
+push int8(120)
+push int8(101)
+
+print
+pop
+
+print
+pop
+
+print
+pop
+
+print
+pop
+
+print
+pop
